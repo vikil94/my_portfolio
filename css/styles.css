@@ -34,6 +34,11 @@
     text-align: center;
 }
 
+.buddflix-paragraph {
+    text-align: center;
+    margin: 0 auto; 
+}
+
 .buddflix-logo {
     height: 200px; 
     display: block;
@@ -42,11 +47,11 @@
 
 .contact-info {
     display: inline;
-
 }
 
 .github-logo {
-    height: 50px; 
+    height: 50px;
+    margin-top: 50px; 
 }
 
 .linkedin {
