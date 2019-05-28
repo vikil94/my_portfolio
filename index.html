@@ -12,24 +12,32 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro">
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
     <header>
         <nav class="nav-list">
             <ul class="main-nav">
-                <li class="main-list">About Me</li>
-                <li class="main-list">Projects</li>
-                <li class="main-list">Contact</li>
-            </ul>
+                <li class="main-list"><a href="#about">About Me</a></li>
+                <li class="main-list"><a href="#projects">Projects</a></li>
+                <li class="main-list"><a href="#contact">Contact</a></li>
+            </ul> 
+            <button class="navbar-toggle">
+                <span></span>
+            </button>
         </nav>
         <h1 class="title">Vikil Naik's Portfolio</h1>
         <img class="my-image" src="images/me.png" alt="Vikil Head Shot"/>
     </header>
+
+
+<body>
     <h1 class="aboutme-title">About Me</h1>
     <div class="aboutme-section">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores natus recusandae quia voluptate, eos optio, adipisci consequuntur magni eius rem dolorem veritatis, porro labore vel eum! Distinctio, esse labore.</p>
     </div>
-    <h1 class="project-title">Projects</h1>
-    <div class="projects">
+
+    <div id="projects">
+        <h1 class="project-title">Projects</h1>
+    </div>    
+    <div class="projects-main">
         <div class="buddflix">
             <a href="http://www.buddflix.com/">
                 <h2 class="buddflix-title">Buddflix</h2>
@@ -43,17 +51,19 @@
             <p> A website I am currently working on </p>
         </div>
     </div> 
-    <div class="contact-info">
-        <a href="https://github.com/vikil94">
-            <img class="github-logo"  src="images/github.png" alt="github"/>
-        </a>
-        <a href="https://www.linkedin.com/in/vikil-naik-886691b3/">
-            <img class="linkedin" src="images/linkedin.png" alt="linkedin-logo"/>
-        </a>
+
+    <div id="contact">
+        <div class="contact-info">
+            <a href="https://github.com/vikil94">
+                <img class="github-logo"  src="images/github.png" alt="github"/>
+            </a>
+            <a href="https://www.linkedin.com/in/vikil-naik-886691b3/">
+                <img class="linkedin" src="images/linkedin.png" alt="linkedin-logo"/>
+            </a>
+        </div>
     </div>
-    
 
-
+    <script src="./main.js"></script>
 </body>
 
 
