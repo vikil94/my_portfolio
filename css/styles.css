@@ -10,7 +10,7 @@ body {
 
 .title {
     text-align: center;
-    
+    font-family: 'Shojumaru', cursive; 
 }
 
 .my-image {
@@ -72,8 +72,15 @@ body {
     color: indianred;
 }
 
+.gc-logo {
+    height: 200px; 
+    display: block;
+    margin: 0 auto;
+}
+
 .gc-p {
     color: indianred;
+    text-align: center;
 }
 
 .contact-info {
