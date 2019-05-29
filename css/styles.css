@@ -1,16 +1,22 @@
+
+body {
+    background: linear-gradient(90deg, #c25353 50%, white 50%);
+}
+
 .main-nav {
     list-style: none;
-    color: white; 
-    background-color: black;
+    
 }
 
 .title {
     text-align: center;
+    
 }
 
 .my-image {
     display: block;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
 .main-list {
@@ -18,7 +24,7 @@
 }
 
 .aboutme-title {
-    text-align: center; 
+    color: white;
 }
 
 .project-title {
@@ -27,22 +33,47 @@
 
 .projects-main {
     display: grid;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 1fr 1fr;
 }
 
 .buddflix-title {
     text-align: center;
+    text-decoration: none;
+    color: white;
 }
 
 .buddflix-paragraph {
     text-align: center;
     margin: 0 auto; 
+    color: white;
 }
 
 .buddflix-logo {
     height: 200px; 
     display: block;
     margin: 0 auto;
+}
+
+.buddflix {
+    border: solid 10px white;
+    border-radius: 10px;
+    margin-right: 5%;
+}
+
+.thegc {
+    border: solid 10px #c25353;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.gc-title {
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+}
+
+.gc-p {
+    color: indianred;
 }
 
 .contact-info {
