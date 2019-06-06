@@ -95,7 +95,8 @@ body {
 
 .contact-info {
     display: inline;
-    text-align: 
+    padding: 45%;
+    margin: 1%;
 }
 
 .github-logo {
