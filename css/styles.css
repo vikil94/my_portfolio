@@ -1,11 +1,21 @@
+button {
+    visibility: hidden;
+}
+
 
 body {
     background: linear-gradient(90deg, #c25353 50%, white 50%);
 }
 
+.top-nav {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+}
+
+
 .main-nav {
     list-style: none;
-    
 }
 
 .title {
@@ -85,13 +95,16 @@ body {
 
 .contact-info {
     display: inline;
+    text-align: 
 }
 
 .github-logo {
     height: 50px;
-    margin-top: 50px; 
+    margin-top: 50px;
+    border-radius: 15px; 
 }
 
 .linkedin {
     height: 50px;
+    border-radius: 15px;
 }
