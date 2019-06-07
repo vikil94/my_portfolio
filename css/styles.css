@@ -7,10 +7,15 @@ body {
     background: linear-gradient(90deg, #c25353 50%, white 50%);
 }
 
+p {
+    font-family: 'Cinzel', serif;
+}
+
 .top-nav {
     text-decoration: none;
     color: white;
     padding: 25px;
+    font-family: 'Cinzel', serif;
 }
 
 
@@ -20,7 +25,7 @@ body {
 
 .title {
     text-align: center;
-    font-family: 'Shojumaru', cursive; 
+    font-family: 'Cinzel', serif;
 }
 
 .my-image {
