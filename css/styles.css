@@ -114,3 +114,7 @@ p {
     height: 50px;
     border-radius: 15px;
 }
+
+.email {
+    text-align: center;
+}
