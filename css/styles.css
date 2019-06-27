@@ -42,6 +42,10 @@ p {
     color: white;
 }
 
+.aboutme-paragraph {
+    text-align: center;
+}
+
 .project-title {
     text-align: center; 
 }
