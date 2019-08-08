@@ -83,6 +83,7 @@ p {
     border: solid 10px #c25353;
     border-radius: 10px;
     margin-left: 5%;
+    margin-top: 5%;
 }
 
 .gc-title {
@@ -113,6 +114,55 @@ p {
     margin-top: 50px;
     border-radius: 15px; 
 }
+
+.per-title {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.perspective{
+    border: solid 10px white;
+    border-radius: 10px;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.per-logo {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.per-p {
+    text-align: center;
+    margin: 0 auto;
+    color: white;
+}
+
+.demonbrawler {
+    border: solid 10px #c25353;
+    border-radius: 10px;
+    margin-left: 5%;
+}
+
+.demon-title {
+    text-align: center;
+    text-decoration: none;
+    color: indianred;
+}
+
+.demon-logo {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.demon-p {
+    color: indianred;
+    text-align: center;
+}
+
 
 .linkedin {
     height: 50px;
