@@ -79,26 +79,26 @@ p {
     margin-right: 5%;
 }
 
-.thegc {
+.luxx {
     border: solid 10px #c25353;
     border-radius: 10px;
     margin-left: 5%;
     margin-top: 5%;
 }
 
-.gc-title {
+.luxx-title {
     text-align: center;
     text-decoration: none;
     color: indianred;
 }
 
-.gc-logo {
+.luxx-logo {
     height: 200px; 
     display: block;
     margin: 0 auto;
 }
 
-.gc-p {
+.luxx-p {
     color: indianred;
     text-align: center;
 }
