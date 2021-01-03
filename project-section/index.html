@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Vikil Naik</title>
+		<title>Travel Website</title>
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&display=swap"
@@ -13,49 +13,70 @@
 	</head>
 	<body data-barba="wrapper">
 		<header class="nav-header">
-			<h1><a href="index.html" id="logo">Home</a></h1>
+			<h1><a href="../index.html" id="logo">Home</a></h1>
 			<div class="burger">
 				<div class="line1"></div>
 				<div class="line2"></div>
 			</div>
 		</header>
-		<main data-barba="container" data-barba-namespace="home">
-			<section class="mountain slide">
-				<div class="hero-img">
-					<img src="/images/me.png" alt="forest image" />
-					<div class="reveal-img"></div>
-				</div>
-				<div class="hero-desc">
-					<div class="title">
-						<h2>
-							Developer, Designer, Photographer
-						</h2>
-						
-					</div>
-				</div>
-			</section>
-			<section class="fashion slide">
-				<div class="hero-img">
-					<img src="/images/logo.png" alt="fashion image" />
-					<div class="reveal-img"></div>
-				</div>
-				<div class="hero-desc">
-					<div class="title">
-						<h2>
-							Take a look at my
-							<span class="fashion-span">projects.</span>
-						</h2>
-						<div class="title-swipe t-swipe3"></div>
-					</div>
+		<main data-barba="container" data-barba-namespace="fashion">
+			<section class="fashion1 detail-slide">
+				<div class="fashion-text">
+					<h1>BuddFlix</h1>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing
-						elit. Beatae sunt corrupti ex quis quam! Soluta
-						doloremque commodi consectetur quam. Minima!
+						Buddflix is a movie recomendation website that gives you
+						a movie based off the type of cannabis you are using,
+						using two APIs to gather this information. The front-end
+						was built in react.js which was the portion of the
+						project that I worked on
 					</p>
-					<a href="/project-section/index.html" class="explore fashion-exp"
+					<a
+						href="http://www.buddflix.com/"
+						class="explore fashion-exp"
 						>Explore</a
 					>
-					<div class="reveal-text"></div>
+				</div>
+				<div class="fashion-img">
+					<img src="/images/logo.png" alt="" />
+				</div>
+			</section>
+			<section class="fashion2 detail-slide">
+				<div class="fashion-text">
+					<h1>LUXX</h1>
+					<p>
+						An interactive, technology-enhanced version of the
+						childhood classic “tag,” LUXX participants play the game
+						in a large, dark room wearing custom-designed,
+						LED-powered suits. Once the game begins, each suit
+						begins to pulse with one of two colours, dividing the
+						players into two teams. Participants must attempt to tag
+						players on the other team. The game ends when all
+						players are the same colour, or when the time has run
+						out.
+					</p>
+					<a
+						href="http://www.luxxgame.com/"
+						class="explore fashion-exp"
+						>Explore</a
+					>
+				</div>
+				<div class="fashion-img">
+					<img src="/images/luxx.png" alt="" />
+				</div>
+			</section>
+			<section class="fashion3 detail-slide">
+				<div class="fashion-text">
+					<h1>Perspective</h1>
+					<p>
+						Perspective is a 2D puzzle platform game where the
+						player must change their view to get past each level.
+						This game was created in Unity, my main focus on the
+						project was to create the game logic as well as the
+						animation state change
+					</p>
+				</div>
+				<div class="fashion-img">
+					<img src="/images/perspective.png" alt="" />
 				</div>
 			</section>
 		</main>
@@ -101,6 +122,6 @@
 			integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
 			crossorigin="anonymous"
 		></script>
-		<script src="app.js"></script>
+		<script src="../app.js"></script>
 	</body>
 </html>
