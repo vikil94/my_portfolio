@@ -138,8 +138,9 @@ main {
 	flex-basis: 30rem;
 }
 
-.nav-links h3 {
+.nav-links img {
 	padding: 3rem 0rem;
+	width: 50%;
 }
 
 .contact {
