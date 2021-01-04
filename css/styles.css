@@ -73,9 +73,10 @@ main {
 }
 
 .hero-img img {
-	width: 100%;
+	width: 80%;
 	height: 100%;
 	object-fit: cover;
+	border-radius: 250px;
 }
 
 .fashion-span {
@@ -127,6 +128,18 @@ main {
 	opacity: 1;
 	clip-path: circle(50px at 100% -10%);
 	-webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.title1 {
+	color: rgb(255, 139, 93);
+}
+
+.title2 {
+	color: rgb(167, 110, 231);
+}
+
+.title3 {
+	color: rgb(86, 124, 228);
 }
 
 .burger {
