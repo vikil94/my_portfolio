@@ -326,19 +326,6 @@ body.hide {
 	z-index: 3;
 }
 
-@media screen and (max-width: 1500px) {
-	.hero-img {
-		height: 50vh;
-	}
-	.fashion-text h1 {
-		font-size: 2rem;
-		padding: 1rem 0rem;
-	}
-	.fashion-exp {
-		margin: 1rem 0rem;
-	}
-}
-
 @media screen and (max-width: 1024px) {
 	main {
 		width: 100%;
