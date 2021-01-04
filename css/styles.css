@@ -325,3 +325,71 @@ body.hide {
 	background: rgb(255, 139, 93);
 	z-index: 3;
 }
+
+@media screen and (max-width: 1500px) {
+	.hero-img {
+		height: 50vh;
+	}
+	.fashion-text h1 {
+		font-size: 2rem;
+		padding: 1rem 0rem;
+	}
+	.fashion-exp {
+		margin: 1rem 0rem;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	main {
+		width: 100%;
+		margin: 0;
+	}
+	.slide {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.hero-desc {
+		padding: 0;
+	}
+	.hero-desc h2 {
+		font-size: 3rem;
+		padding: 1rem 0rem;
+	}
+	.hero-img {
+		padding-top: 2rem;
+	}
+	.explore {
+		width: 60%;
+		margin: auto;
+	}
+	.detail-slide {
+		width: 100%;
+		text-align: center;
+	}
+	.fashion-text p {
+		margin-bottom: 5rem;
+		padding: 0;
+	}
+	.fashion-text h1 {
+		margin: 2rem 0rem;
+	}
+	.fashion-img img {
+		display: none;
+	}
+	.nav-bar {
+		display: block;
+	}
+	.nav-links {
+		margin-top: 2rem;
+		text-align: center;
+	}
+	.contact h2 {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.nav-links img {
+		margin-top: 2.5rem;
+		width: 50%;
+	}
+}
